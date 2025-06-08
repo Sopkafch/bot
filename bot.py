@@ -14,7 +14,7 @@ SYMBOLS_TO_TRACK =['AGLDUSDT', 'AGTUSDT', 'AI16ZUSDT', 'AIOZUSDT', 'AIUSDT', 'AI
 MARKET = "linear"
 SLEEP_INTERVAL = 90  # Проверяем каждую минуту
 COMPARE_INTERVAL = 180  # Сравниваем цены каждый час (в секундах)
-PRICE_INCREASE_THRESHOLD = 0.00000001 
+PRICE_INCREASE_THRESHOLD = 0.02 
 # === КОНЕЦ НАСТРОЕК ===
 
 previous_price = {}
